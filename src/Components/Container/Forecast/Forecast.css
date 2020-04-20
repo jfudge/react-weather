@@ -1,0 +1,75 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.forecast{
+    border-radius: 3rem;
+}
+
+.forecast-content{
+    display: flex;
+    flex-direction: column;
+}
+.extra-current-data{
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+.extra-current-data div{
+    color:#FFF;
+    font-size: 1rem;
+    font-weight: 300;
+    width:90%;
+    border:1px solid #FFF;
+    padding: 7px 18px;
+    margin-bottom: .5rem;
+    background: #FE4A73;
+    border-radius: 7px;
+}
+@media(max-width:1200px){
+    .extra-current-data{
+        margin-top: 2rem;
+        padding: 5px 5px;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media(max-width:555px){
+    .extra-current-data div{
+        margin-bottom: .3rem;
+    }
+}
+
+.extra-current-data div:last-child{
+    margin-bottom: 0;
+}
+.extra-current-data span{
+    text-align: center;
+    background: rgb(6, 121, 21);
+    color:white;
+    margin-left: 15px;
+    padding: 4px;
+    border-radius: 8px;
+}
+.extra-current-data i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.wind{
+    color:rgb(32, 99, 243);
+}
+.sun-i{
+    color:yellow;
+}
+.sunset{
+    color:black;
+}
+.press{
+    font-size: 1.3rem !important;
+    color:orange;
+}
+.humidity{
+    color:rgb(0, 160, 253);
+}
